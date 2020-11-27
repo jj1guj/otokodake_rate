@@ -18,3 +18,5 @@ for i in User_name:
     if User[i]<=400:
         User[i]=400/e**((400-User[i])/400)
     print(i,int(User[i]+0.5))
+
+#CSVへの書き込み
